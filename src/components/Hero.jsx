@@ -33,7 +33,7 @@ const Hero = () => {
               style={{ height: '680px', width: '400px' }} 
               initial={{x:100, opacity:0}}
               animate={{x:0, opacity:1}}
-              transition={{duration:1.5, delay:0.7 }}
+              transition={{duration:1, delay:0.5 }}
             />
           </div>
         </div>
