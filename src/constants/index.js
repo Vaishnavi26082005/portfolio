@@ -59,8 +59,8 @@ export const PROJECTS = [
     description:
       "A task manager to organize your daily activities with add, delete, and complete features.",
     technologies: ["HTML", "CSS", "JS"],
-    Demo: "",
-    Github: "",
+    Demo: "https://wondrous-croquembouche-bf1c2d.netlify.app/",
+    Github: "https://github.com/Vaishnavi26082005/To-Do",
   },
   {
     title: "Khabar Express",
