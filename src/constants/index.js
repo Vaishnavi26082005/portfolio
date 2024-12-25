@@ -55,7 +55,7 @@ export const PROJECTS = [
   },
   {
     title: "To-Do List",
-    image: project2,
+    image: project4,
     description:
       "A task manager to organize your daily activities with add, delete, and complete features.",
     technologies: ["HTML", "CSS", "JS"],
