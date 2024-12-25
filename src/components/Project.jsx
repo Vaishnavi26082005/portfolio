@@ -46,6 +46,7 @@ const Project = () => {
              className="px-6 pb-4 flex justify-between">
               {project.Demo && (
                 <a  
+                href={project.Demo}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-blue-800 hover:bg-blue-400 text-white font-bold py-2 px-2 rounded-lg"
