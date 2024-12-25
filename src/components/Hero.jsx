@@ -9,7 +9,7 @@ const containerVariants={
         opacity:1,
         x:0,
         transition:{
-            duration:0.5,
+            duration:0.7,
             staggerChildren:0.5,
         }
     }
@@ -18,7 +18,7 @@ const containerVariants={
 
 const childVariants={
     hidden:{opacity:0, x:-100},
-    visible: {opacity:1,x:0,transition:{duration:0.5}}
+    visible: {opacity:1,x:0,transition:{duration:0.7}}
 }
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
               style={{ height: '680px', width: '400px' }} 
               initial={{x:100, opacity:0}}
               animate={{x:0, opacity:1}}
-              transition={{duration:1, delay:1.5 }}
+              transition={{duration:1.5, delay:0.7 }}
             />
           </div>
         </div>
